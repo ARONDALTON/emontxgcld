@@ -89,7 +89,7 @@ const int switch3=19;
 //---------------------------------------------------
 // emonGLCD variables
 //---------------------------------------------------
-int hour = 12, minute = 42;
+int hour = 17, minute = 0;
 double usekwh = 0, genkwh = 0;
 double use_history[7], gen_history[7];
 int cval_use, cval_gen;

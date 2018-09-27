@@ -86,7 +86,8 @@ void draw_solar_page(double use, double usekwh, double gen, double maxgen, doubl
   int importing = 0;
   if (use>gen) importing = 1;
   //aron changed
-  double grid = use-gen;   //aron modified
+  double grid = use-gen;   //aron modified this file again
+
   
   glcd.clear();
   glcd.fillRect(0,0,128,64,0);
